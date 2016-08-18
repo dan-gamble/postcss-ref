@@ -1,0 +1,32 @@
+{
+  "name": "postcss-ref",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that allows you to reference properties on itself and other rules",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-ref"
+  ],
+  "author": "Dan Gamble <dangamble89@gmail.com>",
+  "license": "MIT",
+  "repository": "dan-gamble/postcss-ref",
+  "bugs": {
+    "url": "https://github.com/dan-gamble/postcss-ref/issues"
+  },
+  "homepage": "https://github.com/dan-gamble/postcss-ref",
+  "dependencies": {
+    "postcss": "^5.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^3.1.1",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
